@@ -26,7 +26,7 @@
 
         public IActionResult Name(string name)
         {
-            ViewData["Hello"] = "Hej " + name;
+            ViewData["Hello"] = "Hej på dig " + name;
             return View("Index");
         }
 
